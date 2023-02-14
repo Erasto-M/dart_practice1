@@ -118,4 +118,5 @@ void main(){
       print("$w is  odd");
     }
   }
+  print("welcome all");
 }
