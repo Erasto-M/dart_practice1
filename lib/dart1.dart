@@ -1,5 +1,7 @@
 //main function
- void main(){
+
+
+void main(){
   print("hello world");// entry point in dart
   for(int i = 0;i<=10;i++){
     print('hello ${i + 1}');
@@ -211,7 +213,7 @@
    grade = "enter marks correctly";
  }
 print("Grade is ${grade}");
-
+  // Switch control statement
      int day = 8;
      switch (day) {
        case 1:
@@ -238,5 +240,35 @@ print("Grade is ${grade}");
        default:
          print('Invalid Week day');
      }
+     int month = 12;
+     switch(month){
+       case 1:
+         print("January");
+         break;
+       case 2:
+         print("February");
+         break;
+       case 3:
+         print("March");
+         break;
+       case 4:
+         print("April");
+         break;
+       case 5:
+         print("May");
+         break;
+       case 6:
+         print("June");
+         break;
+       case 7:
+         print("july");
+         break;
+       case 8:
+         print("August");
+         break;
+       default:
+         print("invalid month of the year");
+     }
+     print('HELLO');
 
 }
