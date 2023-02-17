@@ -119,4 +119,24 @@ void main(){
     }
   }
   print("welcome all");
+
+
+  // enums
+  String today = "monday";
+  if(today == 'Monday'){
+    print("today is an holiday");
+  }
+  else{
+    print("it is a normal working day");
+  }
+  enum GreetFor {
+  morning,
+  afternoon,
+  evening,
+  }
+  enum Titles {
+  mr,
+  miss
+  }
+
 }
